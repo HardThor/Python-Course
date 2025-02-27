@@ -18,8 +18,8 @@ int.
 Переконайся, що якщо користувач вводить від’ємне число, програма повідомляє про помилку або 
 просить ввести число заново."""
 
-user_input = int(input("Please enter a number: "))
 try:
+    user_input = int(input("Please enter a number: "))
     if user_input < 0:
         raise ValueError  # raise - це ключове слово для виклику винятків
 except ValueError:
