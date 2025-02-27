@@ -21,9 +21,9 @@ int.
 try:
     user_input = int(input("Please enter a number: "))
     if user_input < 0:
-        raise ValueError  # raise - це ключове слово для виклику винятків
+        raise ValueError("Negative input")
 except ValueError:
-    print("You entered a negative number. Please enter a positive number.")
+    print("You entered a negative number or an invalid value. Please enter a positive number.")
 else:
     factorial = 1
     for i in range(1, user_input + 1):
