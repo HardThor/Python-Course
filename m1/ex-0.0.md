@@ -33,7 +33,7 @@ print("Привіт, світ!") #блок коду.
 ім'я змінної не може починатися з цифри але може зі знаку нижнього підкреслення _
 
 Тип даних:
-`int, float, str, bool, None`
+`int, float, complex, str, bool, None`
 
 `type()` визначає тип змінної
 
@@ -43,6 +43,7 @@ print("Привіт, світ!") #блок коду.
 ```python
 age = 20         # int
 pi = 3.14        # float
+complex_number = 3.3 + 2j # complex
 name = "Jango"   # str
 is_adult = True  # bool
 nothing = None   # None
