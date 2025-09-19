@@ -45,6 +45,7 @@ else:
 **Тернарні операції:** 
 `a = [statement_1] if [expression] else [statement_2]`
 Якщо умова `if expression` виконуєтсья то змінній `"a"` присвоюється значення `statement_1`, якщо ні то `statement_2`
+
 **Приклад:**
 ```python
 a_1 = True
